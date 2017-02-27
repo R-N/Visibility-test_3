@@ -1,3 +1,10 @@
+*.apk
+*.exe
+*.zip
+Library
+obj
+Temp
+.gitignore
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

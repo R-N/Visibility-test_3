@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{9D886C34-BE54-5901-0071-3037F1096298}") = "Visibility test_3", "Assembly-CSharp-firstpass.csproj", "{68CC6525-0CC7-E9A0-EB21-07C1EA0B8C3D}"
+EndProject
+Project("{9D886C34-BE54-5901-0071-3037F1096298}") = "Visibility test_3", "Assembly-CSharp.csproj", "{BE4C7100-5F5B-9CAB-0F94-317DE45A9B8E}"
+EndProject
+Project("{9D886C34-BE54-5901-0071-3037F1096298}") = "Visibility test_3", "Assembly-CSharp-Editor.csproj", "{5AD8EB22-0390-ACCA-7BE1-546628A134AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68CC6525-0CC7-E9A0-EB21-07C1EA0B8C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68CC6525-0CC7-E9A0-EB21-07C1EA0B8C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68CC6525-0CC7-E9A0-EB21-07C1EA0B8C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68CC6525-0CC7-E9A0-EB21-07C1EA0B8C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4C7100-5F5B-9CAB-0F94-317DE45A9B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4C7100-5F5B-9CAB-0F94-317DE45A9B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4C7100-5F5B-9CAB-0F94-317DE45A9B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4C7100-5F5B-9CAB-0F94-317DE45A9B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD8EB22-0390-ACCA-7BE1-546628A134AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD8EB22-0390-ACCA-7BE1-546628A134AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD8EB22-0390-ACCA-7BE1-546628A134AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD8EB22-0390-ACCA-7BE1-546628A134AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
