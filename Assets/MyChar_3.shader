@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+
 // Derived from diffuse shader
 // Linearch
 
@@ -37,7 +39,7 @@ void vert (inout appdata_base v, out Input o){
 
     UNITY_INITIALIZE_OUTPUT(Input,o);
 
-	float4 worldPosX = mul(_Object2World, float4(v.vertex.xyz * 0.965f, v.vertex.w));
+	float4 worldPosX = mul(unity_ObjectToWorld, float4(v.vertex.xyz * 0.965f, v.vertex.w));
 
 
 

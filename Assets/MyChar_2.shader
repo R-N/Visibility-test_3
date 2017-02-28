@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+
 // Simplified Diffuse shader. Differences from regular Diffuse one:
 // - no Main Color
 // - fully supports only 1 directional light. Other lights can affect it, but it will be per-vertex/SH.
@@ -25,7 +27,7 @@ void vert (inout appdata_base v, out Input o){
 
     UNITY_INITIALIZE_OUTPUT(Input,o);
 
-	o.worldPosX = mul(_Object2World, v.vertex);
+	o.worldPosX = mul(unity_ObjectToWorld, v.vertex);
 }
 
 void surf (Input IN, inout SurfaceOutput o) {

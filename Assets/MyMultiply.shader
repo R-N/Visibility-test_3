@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+
 Shader "Custom/My Multiply Shader" {
 Properties {
 _Color ("Color", color) = (1,1,1,1)
@@ -51,7 +53,7 @@ half tolerance;
 				o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
 				o.color = v.color;
 				o.texcoord = TRANSFORM_TEX(v.texcoord,_MainTex);
-				o.worldPosX = mul(_Object2World, float4(v.vertex.xyz * 0.9995f, v.vertex.w));
+				o.worldPosX = mul(unity_ObjectToWorld, float4(v.vertex.xyz * 0.9995f, v.vertex.w));
 				return o;
 			}
 			
